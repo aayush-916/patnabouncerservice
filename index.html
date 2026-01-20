@@ -556,6 +556,118 @@
             }
         
         }
+
+        /* --- PRICING SECTION CSS --- */
+        .pricing-section {
+            background-color: #0d121f; /* Slightly lighter than main bg */
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .pricing-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+
+        /* Left Side List */
+        .pricing-info h3, .pricing-table-wrapper h3 {
+            color: var(--accent-color);
+            margin-bottom: 25px;
+            border-bottom: 2px solid var(--accent-color);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .pricing-list li {
+            margin-bottom: 20px;
+            color: #ccc;
+            padding-left: 20px;
+            border-left: 3px solid var(--accent-color);
+            background: rgba(255,255,255,0.02);
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .pricing-list strong {
+            color: #fff;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Proprietor Signature Box */
+        .proprietor-box {
+            margin-top: 40px;
+            padding: 20px;
+            border: 1px dashed var(--accent-color);
+            text-align: center;
+            width: fit-content;
+        }
+
+        .proprietor-box h4 {
+            font-size: 1.5rem;
+            color: #fff;
+            margin: 5px 0;
+            font-family: 'Mrs Saint Delafield', cursive; /* Or standard script */
+        }
+
+        /* Right Side Table */
+        .rate-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--secondary-dark);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .rate-table th {
+            background-color: var(--accent-color);
+            color: var(--primary-dark);
+            padding: 15px;
+            text-align: left;
+            font-weight: 800;
+        }
+
+        .rate-table td {
+            padding: 15px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            color: #fff;
+            vertical-align: middle;
+        }
+
+        .rate-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .small-text {
+            font-size: 0.85rem;
+            color: var(--text-gray);
+        }
+
+        .per-unit {
+            font-size: 0.8rem;
+            color: var(--text-gray);
+        }
+
+        .note-text {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        /* Mobile Responsive for Pricing */
+        @media (max-width: 768px) {
+            .pricing-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .pricing-list li {
+                font-size: 0.95rem;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -567,6 +679,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Rates</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -657,6 +770,64 @@
                         <p>Professional personal assistants and secretaries for corporate executives, managing schedules and ensuring smooth operations with confidentiality.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">Pricing & Rates</h2>
+            <p class="section-subtitle">Transparent Market Rates in Patna & India</p>
+
+            <div class="pricing-container">
+                
+                <div class="pricing-info">
+                    <h3>Important Factors / महत्वपूर्ण जानकारी</h3>
+                    <ul class="pricing-list">
+                        <li>
+                            <strong>स्थान (Location):</strong> मुंबई, दिल्ली जैसे बड़े शहरों और पटना जैसे स्थानीय बाजार में दरों में अंतर होता है.
+                        </li>
+                        <li>
+                            <strong>शिफ्ट की अवधि (Shift Duration):</strong> 8-10 घंटे की शिफ्ट के लिए अलग और ज़्यादा घंटों के लिए अलग रेट लागू होते हैं.
+                        </li>
+                        <li>
+                            <strong>सेवा प्रदाता (Service Provider):</strong> बड़ी सिक्योरिटी एजेंसी या स्थानीय प्रोवाइडर की दरों में फर्क होता है.
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <div class="pricing-table-wrapper">
+                    <h3>Rate Card (Patna, India)</h3>
+                    <table class="rate-table">
+                        <thead>
+                            <tr>
+                                <th>Service Type</th>
+                                <th>Rate (Approx)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>General / Bouncer Daily</strong><br><span class="small-text">सामान्य दर (8 Hours)</span></td>
+                                <td>₹2,500 - ₹3,500 <span class="per-unit">/ Day</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Gunman Service</strong><br><span class="small-text">बाउंसर गनमैन (Daily)</span></td>
+                                <td>₹4,000 - ₹5,000 <span class="per-unit">/ Day</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Ladies Bouncer</strong><br><span class="small-text">लेडीज बाउंसर सर्विस</span></td>
+                                <td>₹2,000 - ₹3,000 <span class="per-unit">/ Day</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Personal Security (Monthly)</strong><br><span class="small-text">पर्सनल सिक्योरिटी (8 Hours)</span></td>
+                                <td>₹25,000 - ₹30,000 <span class="per-unit">/ Month</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="note-text">*Rates may vary based on specific requirements.</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -801,6 +972,11 @@
                 <div class="footer-col">
                     <h4>Patna Bouncer Service</h4>
                     <p>Professional security solutions tailored to your needs. Serving Patna and all of India with pride and integrity.</p>
+                    <div class="proprietor-box">
+                        <p>Regards,</p>
+                        <h4>Anil Kumar</h4>
+                        <span>(Proprietor)</span>
+                    </div>
                 </div>
                 <div class="footer-col">
                     <h4>Quick Links</h4>
