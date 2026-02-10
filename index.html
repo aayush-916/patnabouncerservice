@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Patna Bouncer Service - Professional security, ladies bouncers, gunmen, and event security in Patna, Bihar and all over India. Reliable and trained staff.">
-    <meta name="keywords" content="Patna Bouncer Service, Security Guard Patna, Ladies Bouncer, Gunman Security, Event Security Bihar, Bodyguard Service India">
+    <meta name="description"
+        content="Patna Bouncer Service - Professional security, ladies bouncers, gunmen, and event security in Patna, Bihar and all over India. Reliable and trained staff.">
+    <meta name="keywords"
+        content="Patna Bouncer Service, Security Guard Patna, Ladies Bouncer, Gunman Security, Event Security Bihar, Bodyguard Service India">
     <meta name="author" content="Patna Bouncer Service">
     <title>Patna Bouncer Service | Professional Security & Bouncer Agency</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
 
     <style>
         /* --- CSS VARIABLES & RESET --- */
         :root {
-            --primary-dark: #0a0f1c; /* Deep Navy/Black */
-            --secondary-dark: #161f33; /* Lighter Navy for cards */
-            --accent-color: #d4af37; /* Gold/Metallic for trust & premium feel */
+            --primary-dark: #0a0f1c;
+            /* Deep Navy/Black */
+            --secondary-dark: #161f33;
+            /* Lighter Navy for cards */
+            --accent-color: #d4af37;
+            /* Gold/Metallic for trust & premium feel */
             --accent-hover: #b5952f;
             --text-light: #f1f1f1;
             --text-gray: #b0b0b0;
@@ -44,7 +52,10 @@
             overflow-x: hidden;
         }
 
-        h1, h2, h3, h4 {
+        h1,
+        h2,
+        h3,
+        h4 {
             font-family: var(--font-heading);
             color: #fff;
             text-transform: uppercase;
@@ -129,7 +140,7 @@
             width: 100%;
             top: 0;
             z-index: 1000;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .nav-container {
@@ -157,7 +168,8 @@
             transition: var(--transition);
         }
 
-        .nav-links li a:hover, .nav-links li a.active {
+        .nav-links li a:hover,
+        .nav-links li a.active {
             color: var(--accent-color);
         }
 
@@ -189,11 +201,14 @@
             margin-top: 50px;
             padding-top: 80px;
         }
-        
+
         /* Simulating background image since src is empty */
         .hero-bg-placeholder {
             position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             object-fit: cover;
             z-index: -1;
             opacity: 0.4;
@@ -247,7 +262,7 @@
         .about-img img {
             width: 100%;
             border-radius: 8px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             border: 2px solid var(--accent-color);
         }
 
@@ -267,7 +282,7 @@
             border-radius: 8px;
             overflow: hidden;
             transition: var(--transition);
-            border: 1px solid rgba(255,255,255,0.05);
+            border: 1px solid rgba(255, 255, 255, 0.05);
             height: 100%;
         }
 
@@ -315,7 +330,7 @@
         .feature-box {
             text-align: center;
             padding: 30px;
-            background: rgba(255,255,255,0.03);
+            background: rgba(255, 255, 255, 0.03);
             border-radius: 8px;
             transition: var(--transition);
         }
@@ -353,7 +368,8 @@
             position: relative;
         }
 
-        .gallery-item img, .gallery-item video {
+        .gallery-item img,
+        .gallery-item video {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -463,7 +479,7 @@
         footer {
             background-color: #05080f;
             padding: 60px 0 20px;
-            border-top: 1px solid rgba(255,255,255,0.05);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
         }
 
         .footer-grid {
@@ -478,13 +494,14 @@
             color: var(--accent-color);
         }
 
-        .footer-col p, .footer-col a {
+        .footer-col p,
+        .footer-col a {
             color: var(--text-gray);
             margin-bottom: 10px;
             display: block;
             font-size: 0.95rem;
         }
-        
+
         .footer-col a:hover {
             color: var(--accent-color);
         }
@@ -530,14 +547,15 @@
             .nav-links li a {
                 display: block;
                 padding: 20px;
-                border-top: 1px solid rgba(255,255,255,0.05);
+                border-top: 1px solid rgba(255, 255, 255, 0.05);
             }
 
             .hero h1 {
                 font-size: 2rem;
             }
 
-            .about-content, .contact-container {
+            .about-content,
+            .contact-container {
                 grid-template-columns: 1fr;
             }
 
@@ -549,18 +567,20 @@
                 width: 100%;
                 text-align: center;
             }
+
             .logo {
-            font-size: 1.1rem;
-            font-weight: 600;
-            
+                font-size: 1.1rem;
+                font-weight: 600;
+
             }
-        
+
         }
 
         /* --- PRICING SECTION CSS --- */
         .pricing-section {
-            background-color: #0d121f; /* Slightly lighter than main bg */
-            border-top: 1px solid rgba(255,255,255,0.05);
+            background-color: #0d121f;
+            /* Slightly lighter than main bg */
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
         }
 
         .pricing-container {
@@ -571,7 +591,8 @@
         }
 
         /* Left Side List */
-        .pricing-info h3, .pricing-table-wrapper h3 {
+        .pricing-info h3,
+        .pricing-table-wrapper h3 {
             color: var(--accent-color);
             margin-bottom: 25px;
             border-bottom: 2px solid var(--accent-color);
@@ -584,7 +605,7 @@
             color: #ccc;
             padding-left: 20px;
             border-left: 3px solid var(--accent-color);
-            background: rgba(255,255,255,0.02);
+            background: rgba(255, 255, 255, 0.02);
             padding: 15px;
             border-radius: 0 8px 8px 0;
         }
@@ -608,7 +629,8 @@
             font-size: 1.5rem;
             color: #fff;
             margin: 5px 0;
-            font-family: 'Mrs Saint Delafield', cursive; /* Or standard script */
+            font-family: 'Mrs Saint Delafield', cursive;
+            /* Or standard script */
         }
 
         /* Right Side Table */
@@ -618,7 +640,7 @@
             background: var(--secondary-dark);
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
 
         .rate-table th {
@@ -631,7 +653,7 @@
 
         .rate-table td {
             padding: 15px;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             color: #fff;
             vertical-align: middle;
         }
@@ -662,14 +684,14 @@
             .pricing-container {
                 grid-template-columns: 1fr;
             }
-            
+
             .pricing-list li {
                 font-size: 0.95rem;
             }
         }
-
     </style>
 </head>
+
 <body>
 
     <header>
@@ -707,14 +729,52 @@
         <div class="container">
             <h2 class="section-title">Contact Us</h2>
             <p class="section-subtitle">Get in Touch for a Free Quote</p>
-            
+
             <div class="contact-container">
+                
+
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formsubmit.co/patnabouncerservice@gmail.com" method="POST"
+                        onsubmit="return validateForm(event)">
+
+                        <input type="hidden" name="_subject" value="New Inquiry: Patna Bouncer Service">
+                        <input type="hidden" name="_captcha" value="false"> <input type="hidden" name="_template"
+                            value="table">
+
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Enter full name"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control"
+                                placeholder="Enter 10-digit number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Enter email"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Service Requirement</label>
+                            <textarea id="message" name="message" rows="5" class="form-control"
+                                placeholder="Describe your requirement (e.g., 2 Gunmen for 2 days)" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
                 <div class="contact-info-box">
                     <div class="info-item">
                         <h4>Address</h4>
                         <p>Street Palace, Buddha Chamber Residential Office,<br>
-                        Rajiv Nagar, Ajanta Colony Road No. 1,<br>
-                        Patna, Bihar 800024</p>
+                            Rajiv Nagar, Ajanta Colony Road No. 1,<br>
+                            Patna, Bihar 800024</p>
                     </div>
                     <div class="info-item">
                         <h4>Phone</h4>
@@ -725,40 +785,10 @@
                         <h4>Email</h4>
                         <p><a href="mailto:patnabouncerservice@gmail.com">patnabouncerservice@gmail.com</a></p>
                     </div>
-                    
+
                     <!-- <div class="map-placeholder">
                         <p>[ Map Placeholder: Rajiv Nagar, Patna ]</p>
                     </div> -->
-                </div>
-
-                <div class="contact-form">
-                    <form id="contactForm" action="https://formsubmit.co/patnabouncerservice@gmail.com" method="POST" onsubmit="return validateForm(event)">
-                        
-                        <input type="hidden" name="_subject" value="New Inquiry: Patna Bouncer Service">
-                        <input type="hidden" name="_captcha" value="false"> <input type="hidden" name="_template" value="table">
-                
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Enter full name" required>
-                        </div>
-                
-                        <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter 10-digit number" required>
-                        </div>
-                
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Enter email" required>
-                        </div>
-                
-                        <div class="form-group">
-                            <label for="message">Service Requirement</label>
-                            <textarea id="message" name="message" rows="5" class="form-control" placeholder="Describe your requirement (e.g., 2 Gunmen for 2 days)" required></textarea>
-                        </div>
-                
-                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
-                    </form>
                 </div>
             </div>
         </div>
@@ -771,8 +801,12 @@
             <div class="about-content">
                 <div class="about-text">
                     <h3>Your Safety is Our Priority</h3>
-                    <p>Patna Bouncer Service is a premier security agency based in Patna, Bihar, dedicated to providing top-tier protection services. With years of experience in the industry, we pride ourselves on a team of highly trained, physically fit, and disciplined professionals.</p>
-                    <p>Whether you need personal protection, event security management, or specialized gunman services, we deliver reliability you can count on. We operate with strict adherence to legal and safety protocols.</p>
+                    <p>Patna Bouncer Service is a premier security agency based in Patna, Bihar, dedicated to providing
+                        top-tier protection services. With years of experience in the industry, we pride ourselves on a
+                        team of highly trained, physically fit, and disciplined professionals.</p>
+                    <p>Whether you need personal protection, event security management, or specialized gunman services,
+                        we deliver reliability you can count on. We operate with strict adherence to legal and safety
+                        protocols.</p>
                     <ul>
                         <li>✓ Verified & Background Checked Staff</li>
                         <li>✓ Ex-Servicemen & Trained Civilians</li>
@@ -780,7 +814,8 @@
                     </ul>
                 </div>
                 <div class="about-img">
-                    <img src="/img5.jpeg" alt="Professional Security Team Group Photo" style=" background: #222; display: block;">
+                    <img src="/img5.jpeg" alt="Professional Security Team Group Photo"
+                        style=" background: #222; display: block;">
                 </div>
             </div>
         </div>
@@ -790,7 +825,7 @@
         <div class="container">
             <h2 class="section-title">Our Services</h2>
             <p class="section-subtitle">Comprehensive Security Solutions All Over India</p>
-            
+
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-img-wrapper">
@@ -798,7 +833,8 @@
                     </div>
                     <div class="service-info">
                         <h3>Ladies Bouncer</h3>
-                        <p>Specialized female security personnel for weddings, corporate events, and personal safety, ensuring a secure environment for women and children.</p>
+                        <p>Specialized female security personnel for weddings, corporate events, and personal safety,
+                            ensuring a secure environment for women and children.</p>
                     </div>
                 </div>
 
@@ -808,7 +844,8 @@
                     </div>
                     <div class="service-info">
                         <h3>Gunman Security</h3>
-                        <p>Licensed armed security guards for high-risk protection, cash transit, and VIP security. Highly trained in weapon handling and situational awareness.</p>
+                        <p>Licensed armed security guards for high-risk protection, cash transit, and VIP security.
+                            Highly trained in weapon handling and situational awareness.</p>
                     </div>
                 </div>
 
@@ -818,7 +855,8 @@
                     </div>
                     <div class="service-info">
                         <h3>Security Bouncer Rental</h3>
-                        <p>Hire professional bouncers for private parties, clubs, concerts, and public gatherings. We manage crowds and prevent conflicts effectively.</p>
+                        <p>Hire professional bouncers for private parties, clubs, concerts, and public gatherings. We
+                            manage crowds and prevent conflicts effectively.</p>
                     </div>
                 </div>
 
@@ -828,7 +866,8 @@
                     </div>
                     <div class="service-info">
                         <h3>Secretary Service</h3>
-                        <p>Professional personal assistants and secretaries for corporate executives, managing schedules and ensuring smooth operations with confidentiality.</p>
+                        <p>Professional personal assistants and secretaries for corporate executives, managing schedules
+                            and ensuring smooth operations with confidentiality.</p>
                     </div>
                 </div>
             </div>
@@ -841,21 +880,24 @@
             <p class="section-subtitle">Transparent Market Rates in Patna & India</p>
 
             <div class="pricing-container">
-                
+
                 <div class="pricing-info">
                     <h3>Important Factors / महत्वपूर्ण जानकारी</h3>
                     <ul class="pricing-list">
                         <li>
-                            <strong>स्थान (Location):</strong> मुंबई, दिल्ली जैसे बड़े शहरों और पटना जैसे स्थानीय बाजार में दरों में अंतर होता है.
+                            <strong>स्थान (Location):</strong> मुंबई, दिल्ली जैसे बड़े शहरों और पटना जैसे स्थानीय बाजार
+                            में दरों में अंतर होता है.
                         </li>
                         <li>
-                            <strong>शिफ्ट की अवधि (Shift Duration):</strong> 8-10 घंटे की शिफ्ट के लिए अलग और ज़्यादा घंटों के लिए अलग रेट लागू होते हैं.
+                            <strong>शिफ्ट की अवधि (Shift Duration):</strong> 8-10 घंटे की शिफ्ट के लिए अलग और ज़्यादा
+                            घंटों के लिए अलग रेट लागू होते हैं.
                         </li>
                         <li>
-                            <strong>सेवा प्रदाता (Service Provider):</strong> बड़ी सिक्योरिटी एजेंसी या स्थानीय प्रोवाइडर की दरों में फर्क होता है.
+                            <strong>सेवा प्रदाता (Service Provider):</strong> बड़ी सिक्योरिटी एजेंसी या स्थानीय
+                            प्रोवाइडर की दरों में फर्क होता है.
                         </li>
                     </ul>
-                    
+
                 </div>
 
                 <div class="pricing-table-wrapper">
@@ -869,19 +911,23 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><strong>General / Bouncer Daily</strong><br><span class="small-text">सामान्य दर (8 Hours)</span></td>
+                                <td><strong>General / Bouncer Daily</strong><br><span class="small-text">सामान्य दर (8
+                                        Hours)</span></td>
                                 <td>₹2,500 - ₹3,500 <span class="per-unit">/ Day</span></td>
                             </tr>
                             <tr>
-                                <td><strong>Gunman Service</strong><br><span class="small-text">बाउंसर गनमैन (Daily)</span></td>
+                                <td><strong>Gunman Service</strong><br><span class="small-text">बाउंसर गनमैन
+                                        (Daily)</span></td>
                                 <td>₹4,000 - ₹5,000 <span class="per-unit">/ Day</span></td>
                             </tr>
                             <tr>
-                                <td><strong>Ladies Bouncer</strong><br><span class="small-text">लेडीज बाउंसर सर्विस</span></td>
+                                <td><strong>Ladies Bouncer</strong><br><span class="small-text">लेडीज बाउंसर
+                                        सर्विस</span></td>
                                 <td>₹2,000 - ₹3,000 <span class="per-unit">/ Day</span></td>
                             </tr>
                             <tr>
-                                <td><strong>Personal Security (Monthly)</strong><br><span class="small-text">पर्सनल सिक्योरिटी (8 Hours)</span></td>
+                                <td><strong>Personal Security (Monthly)</strong><br><span class="small-text">पर्सनल
+                                        सिक्योरिटी (8 Hours)</span></td>
                                 <td>₹25,000 - ₹30,000 <span class="per-unit">/ Month</span></td>
                             </tr>
                         </tbody>
@@ -949,31 +995,35 @@
             <div class="testimonial-grid">
                 <div class="review-card">
                     <div class="stars">★★★★★</div>
-                    <p class="review-text">"Hired bouncers for a wedding in Patna. The team was extremely professional, well-dressed, and handled the crowd perfectly. Highly recommended!"</p>
+                    <p class="review-text">"Hired bouncers for a wedding in Patna. The team was extremely professional,
+                        well-dressed, and handled the crowd perfectly. Highly recommended!"</p>
                     <p class="client-name">- Rajesh Kumar, Patna</p>
                 </div>
                 <div class="review-card">
                     <div class="stars">★★★★★</div>
-                    <p class="review-text">"Excellent gunman service. Very polite yet strict on duty. I feel safe traveling with their security team. Best agency in Bihar."</p>
+                    <p class="review-text">"Excellent gunman service. Very polite yet strict on duty. I feel safe
+                        traveling with their security team. Best agency in Bihar."</p>
                     <p class="client-name">- Amit Singh, Business Owner</p>
                 </div>
                 <div class="review-card">
                     <div class="stars">★★★★★</div>
-                    <p class="review-text">"We needed ladies bouncers for a corporate event. Patna Bouncer Service provided trained staff who managed everything smoothly."</p>
+                    <p class="review-text">"We needed ladies bouncers for a corporate event. Patna Bouncer Service
+                        provided trained staff who managed everything smoothly."</p>
                     <p class="client-name">- Sneha Gupta, Event Manager</p>
                 </div>
             </div>
         </div>
     </section>
 
-    
+
 
     <footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
                     <h4>Patna Bouncer Service</h4>
-                    <p>Professional security solutions tailored to your needs. Serving Patna and all of India with pride and integrity.</p>
+                    <p>Professional security solutions tailored to your needs. Serving Patna and all of India with pride
+                        and integrity.</p>
                     <div class="proprietor-box">
                         <p>Regards,</p>
                         <h4>Anil Kumar</h4>
@@ -1018,49 +1068,49 @@
         });
 
         // Form Validation
-        
+
         function validateForm(event) {
-    // Note: We do NOT use event.preventDefault() at the start anymore.
-    // We only use it if validation fails.
-    
-    const name = document.getElementById('name').value.trim();
-    const phone = document.getElementById('phone').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const message = document.getElementById('message').value.trim();
+            // Note: We do NOT use event.preventDefault() at the start anymore.
+            // We only use it if validation fails.
 
-    // 1. Name Validation
-    if (name === "") {
-        alert("Please enter your name.");
-        event.preventDefault(); // Stop submission
-        return false;
-    }
+            const name = document.getElementById('name').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
 
-    // 2. Phone Validation (Basic check for 10 digits)
-    const phoneRegex = /^[0-9]{10}$/;
-    if (!phoneRegex.test(phone)) {
-        alert("Please enter a valid 10-digit phone number.");
-        event.preventDefault(); // Stop submission
-        return false;
-    }
+            // 1. Name Validation
+            if (name === "") {
+                alert("Please enter your name.");
+                event.preventDefault(); // Stop submission
+                return false;
+            }
 
-    // 3. Email Validation
-    if (email === "" || !email.includes('@')) {
-        alert("Please enter a valid email address.");
-        event.preventDefault(); // Stop submission
-        return false;
-    }
+            // 2. Phone Validation (Basic check for 10 digits)
+            const phoneRegex = /^[0-9]{10}$/;
+            if (!phoneRegex.test(phone)) {
+                alert("Please enter a valid 10-digit phone number.");
+                event.preventDefault(); // Stop submission
+                return false;
+            }
 
-    // 4. Message Validation
-    if (message === "") {
-        alert("Please enter your message.");
-        event.preventDefault(); // Stop submission
-        return false;
-    }
+            // 3. Email Validation
+            if (email === "" || !email.includes('@')) {
+                alert("Please enter a valid email address.");
+                event.preventDefault(); // Stop submission
+                return false;
+            }
 
-    // If all checks pass, the function ends normally, 
-    // and the form submits to FormSubmit.co automatically.
-    return true; 
-}
+            // 4. Message Validation
+            if (message === "") {
+                alert("Please enter your message.");
+                event.preventDefault(); // Stop submission
+                return false;
+            }
+
+            // If all checks pass, the function ends normally, 
+            // and the form submits to FormSubmit.co automatically.
+            return true;
+        }
 
         // Smooth Scroll for older browsers (Polyfill logic not needed for modern browsers due to CSS scroll-behavior, but good for JS triggering)
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -1073,4 +1123,5 @@
         });
     </script>
 </body>
+
 </html>
