@@ -700,6 +700,47 @@
                 font-size: 0.95rem;
             }
         }
+
+        .fixed-bottom-right2 {
+    position: fixed;
+    bottom: 4.8rem;
+    right: 0.2rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 20;
+  }
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 1.8rem;
+    right: 0.8rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 20;
+  }
+  
+  .whatsapp-button {
+  
+
+    border-radius: 50%;
+
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .whatsapp-button:hover {
+    transform: scale(1.2);
+  }
+  
+  .whatsapp-icon {
+    width: 2.5rem; 
+    height: 2.5rem;
+  }
+  .whatsapp-icon1 {
+    width: 3.5rem; 
+    height: 3.5rem;
+  }
+  
     </style>
 </head>
 
@@ -723,6 +764,27 @@
             </div>
         </div>
     </header>
+
+    <div class="fixed-bottom-right2">
+        <a
+          href="tel:+919430066416"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="whatsapp-button"
+        >
+          <img src="/call_logo.webp" alt="WhatsApp" class="whatsapp-icon1" />
+        </a>
+      </div>
+      <div class="fixed-bottom-right">
+        <a
+          href="https://wa.me/+919430066416"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="whatsapp-button"
+        >
+          <img src="/whatsapp-icon.webp" alt="WhatsApp" class="whatsapp-icon" />
+        </a>
+      </div>
 
     <section id="home" class="hero">
         <img src="/img8.jpeg" alt="Patna Bouncer Service Team" class="hero-bg-placeholder">
